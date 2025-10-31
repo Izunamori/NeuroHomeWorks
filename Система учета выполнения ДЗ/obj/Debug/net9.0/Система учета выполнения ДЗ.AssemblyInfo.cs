@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Система учета выполнения ДЗ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebbf90175c12ba66e8f93cdf8d641a278221810a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Система учета выполнения ДЗ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Система учета выполнения ДЗ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

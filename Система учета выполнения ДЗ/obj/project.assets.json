@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Izunamori\\Documents\\Code\\Neuro HomeWorks\\Система учета выполнения ДЗ\\Система учета выполнения ДЗ.csproj",
+      "projectUniqueName": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Система учета выполнения ДЗ\\Система учета выполнения ДЗ.csproj",
       "projectName": "Система учета выполнения ДЗ",
-      "projectPath": "C:\\Users\\Izunamori\\Documents\\Code\\Neuro HomeWorks\\Система учета выполнения ДЗ\\Система учета выполнения ДЗ.csproj",
+      "projectPath": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Система учета выполнения ДЗ\\Система учета выполнения ДЗ.csproj",
       "packagesPath": "C:\\Users\\Izunamori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Izunamori\\Documents\\Code\\Neuro HomeWorks\\Система учета выполнения ДЗ\\obj\\",
+      "outputPath": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Система учета выполнения ДЗ\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Izunamori\\AppData\\Roaming\\NuGet\\NuGet.Config",

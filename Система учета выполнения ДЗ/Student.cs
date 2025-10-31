@@ -10,13 +10,6 @@ namespace Система_учета_выполнения_ДЗ
     {
         public string FirstName;
         public string LastName;
-        public int age;
-
-        public void PrintStudent()
-        {
-            Console.WriteLine(FirstName);
-            Console.WriteLine(LastName);
-            Console.WriteLine(age);
-        }
+        public List<int?> grades = new List<int?>();
     }
 }
