@@ -1,0 +1,14 @@
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\obj\Debug\net9.0\Система учета выполнения ДЗ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\obj\Debug\net9.0\Система учета выполнения ДЗ.AssemblyInfoInputs.cache
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\obj\Debug\net9.0\Система учета выполнения ДЗ.AssemblyInfo.cs
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\obj\Debug\net9.0\Система учета выполнения ДЗ.csproj.CoreCompileInputs.cache
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\bin\Debug\net9.0\Система учета выполнения ДЗ.exe
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\bin\Debug\net9.0\Система учета выполнения ДЗ.deps.json
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\bin\Debug\net9.0\Система учета выполнения ДЗ.runtimeconfig.json
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\bin\Debug\net9.0\Система учета выполнения ДЗ.dll
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\bin\Debug\net9.0\Система учета выполнения ДЗ.pdb
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\obj\Debug\net9.0\Система учета выполнения ДЗ.dll
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\obj\Debug\net9.0\refint\Система учета выполнения ДЗ.dll
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\obj\Debug\net9.0\Система учета выполнения ДЗ.pdb
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\obj\Debug\net9.0\Система учета выполнения ДЗ.genruntimeconfig.cache
+C:\Users\Izunamori\Documents\Code\Neuro HomeWorks\Система учета выполнения ДЗ\obj\Debug\net9.0\ref\Система учета выполнения ДЗ.dll
