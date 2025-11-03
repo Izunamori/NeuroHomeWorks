@@ -51,7 +51,9 @@ namespace Система_учета_выполнения_ДЗ
             Console.WriteLine("*--- Статистика студента ---*\n");
             Console.WriteLine("Имя: " + student.FirstName);
             Console.WriteLine("Фамилия: " + student.LastName);
-            Console.Write("Оценки: ");
+            Console.WriteLine("Возраст: " + student.Age);
+            Console.WriteLine("Группа: " + student.Group);
+            Console.Write("\nОценки: ");
             for (int i = 0; i < student.grades.Count; i++)
             {
                 if (student.grades[i].HasValue)
@@ -73,7 +75,7 @@ namespace Система_учета_выполнения_ДЗ
         /// Вычисляет среднюю оценку студента
         /// Возвращает null если нет ни одной сданной работы
         /// </summary>
-        public double? GetAverageGrade(List<int?> grades)
+        private double? GetAverageGrade(List<int?> grades)
         {
             if (grades is null)
                 return null;
@@ -106,7 +108,7 @@ namespace Система_учета_выполнения_ДЗ
         /// Находит наивысшую оценку студента
         /// Возвращает null если нет ни одной сданной работы
         /// </summary>
-        public int? GetBestGrade(List<int?> grades)
+        private int? GetBestGrade(List<int?> grades)
         {
             int? bestGradeCount = 0;
 
@@ -124,6 +126,7 @@ namespace Система_учета_выполнения_ДЗ
                     if (grades[i] > bestGradeCount)
                     {
                         bestGradeCount = (int)grades[i];
+                        break;
                     }
                     else
                         continue;
@@ -142,7 +145,7 @@ namespace Система_учета_выполнения_ДЗ
         /// </summary>
         /// <param name="grades"></param>
         /// <returns></returns>
-        public uint GetWorksCount(List<int?> grades)
+        private uint GetWorksCount(List<int?> grades)
         {
             uint worksCount = 0;
 

@@ -12,45 +12,18 @@ namespace Система_учета_выполнения_ДЗ
 
         public Student[] GetStudentList()
         {
-            students[0] = new Student();
-            students[0].FirstName = "Евгений";
-            students[0].LastName = "Карасёв";
+            Random rnd = new Random();
 
-            students[1] = new Student();
-            students[1].FirstName = "Данил";
-            students[1].LastName = "Лучников";
-
-            students[2] = new Student();
-            students[2].FirstName = "Егор";
-            students[2].LastName = "Ежов";
-
-            students[3] = new Student();
-            students[3].FirstName = "Данил";
-            students[3].LastName = "Яценко";
-
-            students[4] = new Student();
-            students[4].FirstName = "Иван";
-            students[4].LastName = "Гречко";
-
-            students[5] = new Student();
-            students[5].FirstName = "Влад";
-            students[5].LastName = "Авдеев";
-
-            students[6] = new Student();
-            students[6].FirstName = "Артём";
-            students[6].LastName = "Ярморкин";
-
-            students[7] = new Student();
-            students[7].FirstName = "Влад";
-            students[7].LastName = "Орлов";
-
-            students[8] = new Student();
-            students[8].FirstName = "Никита";
-            students[8].LastName = "Матвеев";
-
-            students[9] = new Student();
-            students[9].FirstName = "Максим";
-            students[9].LastName = "Силин";
+            students[0] = new Student("Евгений", "Карасёв", "ТОиРД 402", 19);
+            students[1] = new Student("Данил", "Лучников", "ТОиРД 402", 19);
+            students[2] = new Student("Егор", "Ежов", "ТОиРД 402", 19);
+            students[3] = new Student("Данил", "Яценко", "ТОиРД 402", 19);
+            students[4] = new Student("Иван", "Гречко", "ТОиРД 402", 20);
+            students[5] = new Student("Влад", "Авдеев", "ТОиРД 402", 19);
+            students[6] = new Student("Артём", "Ярморкин", "ТОиРД 402", 20);
+            students[7] = new Student("Влад", "Орлов", "ТОиРД 402", 18);
+            students[8] = new Student("Никита", "Матвеев", "ТОиРД 402", 19);
+            students[9] = new Student("Максим", "Силин", "ТОиРД 402", 20);
 
             return students;
         }

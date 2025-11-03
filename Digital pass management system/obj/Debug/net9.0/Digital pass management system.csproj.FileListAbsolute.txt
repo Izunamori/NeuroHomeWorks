@@ -1,0 +1,15 @@
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\bin\Debug\net9.0\Digital pass management system.exe
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\bin\Debug\net9.0\Digital pass management system.deps.json
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\bin\Debug\net9.0\Digital pass management system.runtimeconfig.json
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\bin\Debug\net9.0\Digital pass management system.dll
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\bin\Debug\net9.0\Digital pass management system.pdb
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\obj\Debug\net9.0\Digital pass management system.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\obj\Debug\net9.0\Digital pass management system.AssemblyInfoInputs.cache
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\obj\Debug\net9.0\Digital pass management system.AssemblyInfo.cs
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\obj\Debug\net9.0\Digital pass management system.csproj.CoreCompileInputs.cache
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\obj\Debug\net9.0\Digital pass management system.sourcelink.json
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\obj\Debug\net9.0\Digital pass management system.dll
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\obj\Debug\net9.0\refint\Digital pass management system.dll
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\obj\Debug\net9.0\Digital pass management system.pdb
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\obj\Debug\net9.0\Digital pass management system.genruntimeconfig.cache
+C:\Users\Izunamori\Documents\Code\NeuroHomeWorks\Digital pass management system\obj\Debug\net9.0\ref\Digital pass management system.dll

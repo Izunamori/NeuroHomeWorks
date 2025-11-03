@@ -3,20 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D386FA25-94C9-4A75-8A7F-17879358F93D}|\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\\u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0434\u0437\\studentgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D386FA25-94C9-4A75-8A7F-17879358F93D}|\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417.csproj|solutionrelative:studentgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AD26EC3-A5DC-4BB2-9B27-1AD431126582}|..\\Digital pass management system\\Digital pass management system.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\digital pass management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D386FA25-94C9-4A75-8A7F-17879358F93D}|\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\\u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0434\u0437\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D386FA25-94C9-4A75-8A7F-17879358F93D}|\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AD26EC3-A5DC-4BB2-9B27-1AD431126582}|..\\Digital pass management system\\Digital pass management system.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\digital pass management system\\passmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D386FA25-94C9-4A75-8A7F-17879358F93D}|\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\\u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0434\u0437\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D386FA25-94C9-4A75-8A7F-17879358F93D}|\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D386FA25-94C9-4A75-8A7F-17879358F93D}|\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\\u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0434\u0437\\studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D386FA25-94C9-4A75-8A7F-17879358F93D}|\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417.csproj|solutionrelative:studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AD26EC3-A5DC-4BB2-9B27-1AD431126582}|..\\Digital pass management system\\Digital pass management system.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\digital pass management system\\digitalpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +24,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentGradeManager.cs",
-              "DocumentMoniker": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417\\StudentGradeManager.cs",
-              "RelativeDocumentMoniker": "StudentGradeManager.cs",
-              "ToolTip": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417\\StudentGradeManager.cs",
-              "RelativeToolTip": "StudentGradeManager.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAkwIwAAAA2AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Digital pass management system\\Program.cs",
+              "ToolTip": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\Program.cs",
+              "RelativeToolTip": "..\\Digital pass management system\\Program.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAkwJEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T16:47:32.459Z",
+              "WhenOpened": "2025-11-03T11:25:57.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417\\Student.cs",
-              "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417\\Student.cs",
-              "RelativeToolTip": "Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Title": "PassManager.cs",
+              "DocumentMoniker": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\PassManager.cs",
+              "RelativeDocumentMoniker": "..\\Digital pass management system\\PassManager.cs",
+              "ToolTip": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\PassManager.cs",
+              "RelativeToolTip": "..\\Digital pass management system\\PassManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T11:35:21.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentsList.cs",
-              "DocumentMoniker": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417\\StudentsList.cs",
-              "RelativeDocumentMoniker": "StudentsList.cs",
-              "ToolTip": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417\\StudentsList.cs",
-              "RelativeToolTip": "StudentsList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T12:41:05.997Z",
+              "WhenOpened": "2025-11-03T10:59:19.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u0447\u0435\u0442\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u0414\u0417\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Title": "DigitalPass.cs",
+              "DocumentMoniker": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\DigitalPass.cs",
+              "RelativeDocumentMoniker": "..\\Digital pass management system\\DigitalPass.cs",
+              "ToolTip": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\DigitalPass.cs",
+              "RelativeToolTip": "..\\Digital pass management system\\DigitalPass.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwGYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T14:42:04.589Z",
+              "WhenOpened": "2025-11-03T09:55:09.618Z",
               "EditorCaption": ""
             }
           ]
