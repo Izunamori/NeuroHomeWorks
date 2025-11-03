@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace Digital_pass_management_system
 {
     static class PassManager
-    {
-        private static int IdCounter;
+    {        
+        private static int _IdCounter;
         public static int TotalPasses
         {
-            get { return IdCounter; }
+            get { return _IdCounter; }
         }
 
         public static List<DigitalPass> ListOfPasses = new List<DigitalPass>();
@@ -26,7 +26,7 @@ namespace Digital_pass_management_system
 
             // Создаем пропуск
             var Pass = new DigitalPass(
-                id = IdCounter,
+                id = _IdCounter,
                 firstName,
                 lastName,
                 status,
@@ -36,7 +36,7 @@ namespace Digital_pass_management_system
             // Добавляем пропуск в список пропусков
             ListOfPasses.Add(Pass);
 
-            IdCounter++;
+            _IdCounter++;
 
             return Pass;
         }
@@ -45,7 +45,7 @@ namespace Digital_pass_management_system
         {
             for ( int i = 0; i < ListOfPasses.Count; i++ )
             {
-                if (ListOfPasses[i].PubExpirationDate <= DateTime.Now)
+                if (ListOfPasses[i].ExpirationDate <= DateTime.Now)
                 {
                     ListOfPasses[i].SetExpired();
                 }

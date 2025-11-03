@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Digital pass management system")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+641be18473427ebdfaa4a5e9be79883305e2f830")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1901fe907a4fc54fe42689c2315393cb861c580b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Digital pass management system")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Digital pass management system")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

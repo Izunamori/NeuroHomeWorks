@@ -11,8 +11,7 @@ namespace Digital_pass_management_system
     enum PassStatus
     {
         Активный = 1,
-        Приостановлен = 0,
-        Просрочен = -1
+        Просрочен = 0,
     }
 
     enum BanStatus
@@ -22,21 +21,31 @@ namespace Digital_pass_management_system
     }
     class DigitalPass
     {
-        private int Id;
-        private string FirstName;
-        private string LastName;        
-        private PassStatus Status;
-        private DateTime ExpirationDate;
-        private BanStatus IsBanned;
+        private static int _BannedCounter;
+
+        private int _Id;
+        private string _FirstName;
+        private string _LastName;        
+        private PassStatus _Status;
+        private DateTime _ExpirationDate;
+        private BanStatus _IsBanned;
 
         // Свойства для валидации
-        public PassStatus PubStatus
+        public static int BannedCounter
         {
-            get { return Status; }
+            get { return _BannedCounter; }
         }
-        public DateTime PubExpirationDate
+        public BanStatus BannedStatus
         {
-            get { return ExpirationDate; }
+            get { return _IsBanned; }
+        }
+        public PassStatus Status
+        {
+            get { return _Status; }
+        }
+        public DateTime ExpirationDate
+        {
+            get { return _ExpirationDate; }
         }
 
         public DigitalPass(
@@ -47,39 +56,36 @@ namespace Digital_pass_management_system
             DateTime ExpirationDate
         )
         {
-            this.Id = Id;
-            this.FirstName = FirstName;
-            this.LastName = LastName;
-            this.Status = Status;
-            this.ExpirationDate = ExpirationDate;
-            IsBanned = BanStatus.Нет;
+            this._Id = Id;
+            this._FirstName = FirstName;
+            this._LastName = LastName;
+            this._Status = Status;
+            this._ExpirationDate = ExpirationDate;
+            _IsBanned = BanStatus.Нет;
         }
 
-        // Управление статусом
+        // Управление статусом годности
         public void SetActive()
         {
-            Status = PassStatus.Активный;
-        }
-
-        public void SetFrozen()
-        {
-            Status = PassStatus.Приостановлен;
+            _Status = PassStatus.Активный;
         }
 
         public void SetExpired()
         {
-            Status = PassStatus.Просрочен;
+            _Status = PassStatus.Просрочен;
         }
         
         // Управление блокировкой
         public void Ban()
         {
-            IsBanned = BanStatus.Да;
+            _IsBanned = BanStatus.Да;
+            _BannedCounter++;
         }
 
         public void Unban()
         {
-            IsBanned = BanStatus.Нет;
+            _IsBanned = BanStatus.Нет;
+            _BannedCounter--;
         }
 
         // Вывод пропуска в консоль
@@ -87,13 +93,12 @@ namespace Digital_pass_management_system
         {
             Console.WriteLine("\t* ----------- Пропуск ----------- *\n");
             
-
-            Console.WriteLine("\t  Id пропуска: " + Id +
-                            "\n\t          Имя: " + FirstName +
-                            "\n\t     Фамилиля: " + LastName +
-                            "\n\t       Статус: " + Status +
-                            "\n\t     Годен до: " + ExpirationDate +
-                            "\n\t   Блокировка: " + IsBanned + "\n"
+            Console.WriteLine("\t  Id пропуска: " + _Id +
+                            "\n\t          Имя: " + _FirstName +
+                            "\n\t     Фамилиля: " + _LastName +
+                            "\n\t       Статус: " + _Status +
+                            "\n\t     Годен до: " + _ExpirationDate +
+                            "\n\t   Блокировка: " + _IsBanned + "\n"
             );
 
             Console.WriteLine("\t* ------------------------------- *");
@@ -102,7 +107,7 @@ namespace Digital_pass_management_system
         // Добавить количество дней до истечения срока годности пропуска
         public void AddDaysToExpirationDate(int Days)
         {
-            ExpirationDate.AddDays( Days );
+            _ExpirationDate.AddDays( Days );
         }
     }
 }
