@@ -6,10 +6,13 @@
       "AbsoluteMoniker": "D:0:0:{3AD26EC3-A5DC-4BB2-9B27-1AD431126582}|..\\Digital pass management system\\Digital pass management system.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\digital pass management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AD26EC3-A5DC-4BB2-9B27-1AD431126582}|..\\Digital pass management system\\Digital pass management system.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\digital pass management system\\digitalpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AD26EC3-A5DC-4BB2-9B27-1AD431126582}|..\\Digital pass management system\\Digital pass management system.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\digital pass management system\\passmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AD26EC3-A5DC-4BB2-9B27-1AD431126582}|..\\Digital pass management system\\Digital pass management system.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\digital pass management system\\passmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AD26EC3-A5DC-4BB2-9B27-1AD431126582}|..\\Digital pass management system\\Digital pass management system.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\digital pass management system\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD26EC3-A5DC-4BB2-9B27-1AD431126582}|..\\Digital pass management system\\Digital pass management system.csproj|c:\\users\\izunamori\\documents\\code\\neurohomeworks\\digital pass management system\\digitalpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbManager.cs",
+              "DocumentMoniker": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\DbManager.cs",
+              "RelativeDocumentMoniker": "..\\Digital pass management system\\DbManager.cs",
+              "ToolTip": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\DbManager.cs",
+              "RelativeToolTip": "..\\Digital pass management system\\DbManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T10:56:29.154Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -29,33 +45,33 @@
               "RelativeDocumentMoniker": "..\\Digital pass management system\\Program.cs",
               "ToolTip": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\Program.cs",
               "RelativeToolTip": "..\\Digital pass management system\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T11:25:57.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PassManager.cs",
               "DocumentMoniker": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\PassManager.cs",
               "RelativeDocumentMoniker": "..\\Digital pass management system\\PassManager.cs",
               "ToolTip": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\PassManager.cs",
               "RelativeToolTip": "..\\Digital pass management system\\PassManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T10:59:19.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DigitalPass.cs",
               "DocumentMoniker": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\DigitalPass.cs",
               "RelativeDocumentMoniker": "..\\Digital pass management system\\DigitalPass.cs",
               "ToolTip": "C:\\Users\\Izunamori\\Documents\\Code\\NeuroHomeWorks\\Digital pass management system\\DigitalPass.cs",
               "RelativeToolTip": "..\\Digital pass management system\\DigitalPass.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAUwG0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T09:55:09.618Z",
               "EditorCaption": ""

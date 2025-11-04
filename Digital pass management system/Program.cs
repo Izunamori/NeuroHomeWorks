@@ -1,4 +1,6 @@
-﻿namespace Digital_pass_management_system
+﻿using System.Text.Json;
+
+namespace Digital_pass_management_system
 {
     internal class Program
     {
@@ -24,7 +26,7 @@
                 try
                 {
                     Console.Write("-> ");
-                    Switcher = Byte.Parse(Console.ReadLine());
+                    Switcher = byte.Parse(Console.ReadLine());
 
                     if (Switcher == 1
                         | Switcher == 2
@@ -51,6 +53,8 @@
         }
         static void Main(string[] args)
         {
+            DbManager.GetDb();
+
             while (true)
             {
                 PrintMainMenuUi();
@@ -91,7 +95,7 @@
 
                             PassManager.ListOfPasses[PassManager.ListOfPasses.Count - 1].PrintPass();
 
-                            Console.Write("\n\nНажмите Enter для возврата в главное меню...");
+                            Console.Write("\n\nНажмите Enter для возврата в главное меню...\n\n");
 
                             Console.ReadLine();
                             Console.Clear();                            
@@ -110,7 +114,7 @@
                                 Console.Write("Введите Id пропуска: ");
                                 id = int.Parse(Console.ReadLine());
 
-                                if (PassManager.ListOfPasses[id].BannedStatus is BanStatus.Да)
+                                if (PassManager.ListOfPasses[id].BannedStatus is true)
                                 {
                                     Console.Clear();
 

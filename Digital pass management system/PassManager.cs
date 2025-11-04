@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Digital_pass_management_system
@@ -20,21 +21,22 @@ namespace Digital_pass_management_system
         {
             int id;
 
-            // Пропуск будет актуален в течение года после создания
-            PassStatus status = PassStatus.Активный;
+            // продление пропуска на год сразу после создания
+            bool status = true;
             DateTime expirationDate = DateTime.Now.AddYears(1);
 
-            // Создаем пропуск
+            // новый пропуск
             var Pass = new DigitalPass(
                 id = _IdCounter,
                 firstName,
-                lastName,
-                status,
-                expirationDate
+                lastName,                
+                expirationDate,
+                status
                 );
 
-            // Добавляем пропуск в список пропусков
+            // добавление в список и обновление базы данных
             ListOfPasses.Add(Pass);
+            DbManager.UpdateDb();
 
             _IdCounter++;
 
