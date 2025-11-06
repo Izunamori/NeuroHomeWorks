@@ -9,11 +9,7 @@ namespace Digital_pass_management_system
 {
     static class PassManager
     {        
-        private static int _IdCounter;
-        public static int TotalPasses
-        {
-            get { return _IdCounter; }
-        }
+        public static int TotalPasses { get; private set; }
 
         public static List<DigitalPass> ListOfPasses = new List<DigitalPass>();
 
@@ -27,18 +23,16 @@ namespace Digital_pass_management_system
 
             // новый пропуск
             var Pass = new DigitalPass(
-                id = _IdCounter,
+                id = TotalPasses,
                 firstName,
                 lastName,                
-                expirationDate,
-                status
+                expirationDate
                 );
 
             // добавление в список и обновление базы данных
             ListOfPasses.Add(Pass);
-            DbManager.UpdateDb();
 
-            _IdCounter++;
+            TotalPasses++;
 
             return Pass;
         }

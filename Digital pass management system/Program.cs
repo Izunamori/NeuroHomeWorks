@@ -53,8 +53,6 @@ namespace Digital_pass_management_system
         }
         static void Main(string[] args)
         {
-            DbManager.GetDb();
-
             while (true)
             {
                 PrintMainMenuUi();
@@ -114,7 +112,7 @@ namespace Digital_pass_management_system
                                 Console.Write("Введите Id пропуска: ");
                                 id = int.Parse(Console.ReadLine());
 
-                                if (PassManager.ListOfPasses[id].BannedStatus is true)
+                                if (PassManager.ListOfPasses[id].IsBanned is true)
                                 {
                                     Console.Clear();
 
