@@ -4,60 +4,13 @@ namespace Digital_pass_management_system
 {
     internal class Program
     {
-        static byte? Switcher;
-
-        static void PrintHeader()
-        {
-            Console.WriteLine("/------ Система управления цифровыми пропусками ------\\ \n");
-        }
-        static void PrintMainMenuUi()
-        {
-            while (true)
-            {
-                PrintHeader();
-
-                Console.WriteLine("1. Создать пропуск\n" +
-                                  "2. Продлить пропуск\n" +
-                                  "3. Заблокировать\\Разблокировать\n" +
-                                  "4. Статистика\n" +
-                                  "5. Поиск пропуска\n" +
-                                  "6. Выход\n");
-
-                try
-                {
-                    Console.Write("-> ");
-                    Switcher = byte.Parse(Console.ReadLine());
-
-                    if (Switcher == 1
-                        | Switcher == 2
-                        | Switcher == 3
-                        | Switcher == 4
-                        | Switcher == 5
-                        | Switcher == 6)
-                        break;
-                }
-                catch (FormatException)
-                {
-                    Console.Clear();
-
-                    PrintHeader();
-
-                    Console.WriteLine("Ошибка, для выбора пункта вводите целые числа от 1 до 6.\n\n" +
-                                      "Для продолжения нажмите Enter");
-                    Console.ReadLine();
-
-                    Console.Clear();
-                }
-            }
-            Console.Clear();
-        }
         static void Main(string[] args)
         {
             while (true)
             {
-                PrintMainMenuUi();
+                byte switcher = PrintUi.PrintMainMenuUi();
 
-                switch (Switcher)
+                switch (switcher)
                 {
                     case 1:
                         {
@@ -66,7 +19,7 @@ namespace Digital_pass_management_system
 
                             while (firstName == "")
                             {
-                                PrintHeader();
+                                PrintUi.PrintHeader();
 
                                 Console.Write("Введите имя нового пользователя: ");
 
@@ -77,7 +30,7 @@ namespace Digital_pass_management_system
 
                             while (lastName == "")
                             {
-                                PrintHeader();
+                                PrintUi.PrintHeader();
                                 Console.Write("Введите фамилию нового пользователя: ");
 
                                 lastName = Console.ReadLine();
@@ -87,7 +40,7 @@ namespace Digital_pass_management_system
 
                             PassManager.CreatePass(firstName, lastName);
 
-                            PrintHeader();
+                            PrintUi.PrintHeader();
 
                             Console.WriteLine("\n\t\tСоздан новый пропуск.\n");
 
@@ -105,7 +58,7 @@ namespace Digital_pass_management_system
                             int id = -1;
                             int days = 0;
 
-                            PrintHeader();
+                            PrintUi.PrintHeader();
 
                             try
                             {
@@ -116,7 +69,7 @@ namespace Digital_pass_management_system
                                 {
                                     Console.Clear();
 
-                                    PrintHeader();
+                                    PrintUi.PrintHeader();
 
                                     Console.WriteLine("Пропуск заблокирован.\n\n" +
                                                       "Нажмите Enter для продолжения...");
@@ -129,7 +82,7 @@ namespace Digital_pass_management_system
 
                                 Console.Clear();
 
-                                PrintHeader();
+                                PrintUi.PrintHeader();
 
                                 Console.Write("Введите кол-во дней, на которое хотите продлить: ");
                                 days = int.Parse(Console.ReadLine());
@@ -140,7 +93,7 @@ namespace Digital_pass_management_system
                             {
                                 Console.Clear();
 
-                                PrintHeader();
+                                PrintUi.PrintHeader();
 
                                 Console.WriteLine("Некорректный ввод, введите целое число.\n\n" +
                                                 "Для продолжения нажмите Enter");
@@ -154,7 +107,7 @@ namespace Digital_pass_management_system
                             {
                                 Console.Clear();
 
-                                PrintHeader();
+                                PrintUi.PrintHeader();
 
                                 Console.WriteLine("Ошибка, такого пропуска не существует.\n");
 
@@ -174,7 +127,7 @@ namespace Digital_pass_management_system
                             {
                                 Console.Clear();
 
-                                PrintHeader();
+                                PrintUi.PrintHeader();
 
                                 Console.WriteLine("Ошибка, такого пропуска не существует.\n");
 
@@ -193,7 +146,7 @@ namespace Digital_pass_management_system
                             int id = -1;
                             int switcherInCase3 = 0;
 
-                            PrintHeader();
+                            PrintUi.PrintHeader();
 
                             try
                             {
@@ -206,7 +159,7 @@ namespace Digital_pass_management_system
                             {
                                 Console.Clear();
 
-                                PrintHeader();
+                                PrintUi.PrintHeader();
 
                                 Console.WriteLine("Некорректный ввод, введите целое число.\n\n" +
                                                     "Для продолжения нажмите Enter");
@@ -219,7 +172,7 @@ namespace Digital_pass_management_system
 
                             try
                             {
-                                PrintHeader();
+                                PrintUi.PrintHeader();
 
                                 PassManager.ListOfPasses[id].PrintPass();
 
@@ -250,7 +203,7 @@ namespace Digital_pass_management_system
                             {
                                 Console.Clear();
 
-                                PrintHeader();
+                                PrintUi.PrintHeader();
 
                                 Console.WriteLine("Некорректный ввод, введите целое число.\n\n" +
                                                   "Для продолжения нажмите Enter\n\n");
@@ -276,7 +229,7 @@ namespace Digital_pass_management_system
                                     }
                             }
 
-                            PrintHeader();
+                            PrintUi.PrintHeader();
 
                             Console.WriteLine("Статус успешно изменён.\n\n" +
                                               "Нажмите Enter для продолжения...");
@@ -290,7 +243,7 @@ namespace Digital_pass_management_system
                         {
                             Console.Clear();
 
-                            PrintHeader();
+                            PrintUi.PrintHeader();
 
                             Console.WriteLine("Статистика:\n");
 
@@ -310,7 +263,7 @@ namespace Digital_pass_management_system
 
                             try
                             {
-                                PrintHeader();
+                                PrintUi.PrintHeader();
 
                                 Console.Write("Введите Id пропуска: ");
                                 id = int.Parse(Console.ReadLine());
@@ -321,7 +274,7 @@ namespace Digital_pass_management_system
                             {
                                 Console.Clear();
 
-                                PrintHeader();
+                                PrintUi.PrintHeader();
 
                                 Console.WriteLine("Некорректный ввод, введите целое число.\n\n" +
                                                     "Для продолжения нажмите Enter");
@@ -340,7 +293,7 @@ namespace Digital_pass_management_system
                                     {
                                         Console.Clear();
 
-                                        PrintHeader();
+                                        PrintUi.PrintHeader();
 
                                         Console.WriteLine("Найден пропуск:\n");
 

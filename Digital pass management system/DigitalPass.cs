@@ -19,7 +19,7 @@ namespace Digital_pass_management_system
         }
 
 
-        public int Id { get; private set; }
+        public Guid Id { get; private set; }
         public string FirstName { get; private set; }
         public string LastName { get; private set; }
         public bool ActiveStatus { get; private set; }
@@ -29,25 +29,21 @@ namespace Digital_pass_management_system
 
         // конструктор для создания пропуска
         public DigitalPass(
-            int id,
             string firstName,
-            string lastName,
-            DateTime expirationDate
+            string lastName
         )
         {
-            Id = id;
-            FirstName = firstName;
-            LastName = lastName;
+            Id = Guid.NewGuid();
+            FirstName = firstName ??= "None";
+            LastName = lastName ??= "None";
             IsBanned = false;
             ActiveStatus = true;
-            ExpirationDate = expirationDate;
-            
+            ExpirationDate = DateTime.Now.AddYears(1);
         }
 
         // управление статусом годности
         public void SetActive() => ActiveStatus = true;
         public void SetExpired() => ActiveStatus = false;
-
 
         // управление блокировкой
         public void Ban()
@@ -60,7 +56,6 @@ namespace Digital_pass_management_system
             IsBanned = false;
             _BannedCounter--;
         }
-
 
         /// <summary>
         /// вывод пропуска в консоль
@@ -79,7 +74,6 @@ namespace Digital_pass_management_system
 
             Console.WriteLine("\t* ------------------------------- *");
         }
-
 
         /// <summary>
         /// добавляет дни к сроку действия пропуска

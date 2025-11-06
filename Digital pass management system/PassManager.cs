@@ -10,31 +10,17 @@ namespace Digital_pass_management_system
     static class PassManager
     {        
         public static int TotalPasses { get; private set; }
+        public static List<DigitalPass> ListOfPasses { get; private set; }
 
-        public static List<DigitalPass> ListOfPasses = new List<DigitalPass>();
+        static PassManager() { ListOfPasses = new List<DigitalPass>(); }
 
-        public static DigitalPass CreatePass(string firstName, string lastName)
+        public static void CreatePass(string firstName, string lastName)
         {
-            int id;
+            var Pass = new DigitalPass(firstName, lastName);
 
-            // продление пропуска на год сразу после создания
-            bool status = true;
-            DateTime expirationDate = DateTime.Now.AddYears(1);
-
-            // новый пропуск
-            var Pass = new DigitalPass(
-                id = TotalPasses,
-                firstName,
-                lastName,                
-                expirationDate
-                );
-
-            // добавление в список и обновление базы данных
             ListOfPasses.Add(Pass);
 
             TotalPasses++;
-
-            return Pass;
         }
 
         public static void DeactivateAllExpired()
